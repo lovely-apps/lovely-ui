@@ -1,0 +1,17 @@
+{
+	"arrowParens": "always",
+	"useTabs": true,
+	"tabWidth": 2,
+	"trailingComma": "all",
+	"plugins": ["@trivago/prettier-plugin-sort-imports"],
+	"importOrder": [
+		"^@[^/](.*)\\.s?css$",
+		"^@/(.*)(?<!\\.s?css)$",
+		"^@/(.*)\\.s?css$",
+		"^[./](.*?)(?<!\\.s?css)$",
+		"^(.*)\\.s?css$"
+	],
+	"importOrderSeparation": true,
+	"importOrderSortSpecifiers": true,
+	"importOrderGroupNamespaceSpecifiers": true
+}
