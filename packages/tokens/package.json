@@ -1,0 +1,47 @@
+{
+	"name": "@lovely-ui/tokens",
+	"version": "0.1.0",
+	"browser": "dist/index.js",
+	"scripts": {
+		"build": "style-dictionary build --config ./style-dictionary.config.mjs",
+		"storybook": "storybook dev -p 6006 -c ../../.storybook",
+		"storybook:build": "storybook build -c ../../.storybook",
+		"storybook:test": "test-storybook -c ../../storybook"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/lovely-apps/lovely-ui.git"
+	},
+	"author": "LoveAndCoding",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/lovely-apps/lovely-ui/issues"
+	},
+	"homepage": "https://github.com/lovely-apps/lovely-ui#readme",
+	"devDependencies": {
+		"@eslint/js": "^9.20.0",
+		"@fontsource-variable/caveat": "^5.2.5",
+		"@fontsource-variable/inconsolata": "^5.2.5",
+		"@fontsource-variable/nunito": "^5.2.5",
+		"@fontsource/laila": "^5.2.5",
+		"eslint": "^9.20.1",
+		"eslint-config-prettier": "^9.1.0",
+		"style-dictionary": "^4.3.3",
+		"typescript": "^5.7.3",
+		"typescript-eslint": "^8.24.0"
+	},
+	"exports": {
+		"./tokens/*": {
+			"import": "./dist/tokens/*.mjs",
+			"require": "./dist/tokens/*.cjs",
+			"types": "./dist/tokens/*.d.ts"
+		},
+		"./*": {
+			"sass": "./dist/scss/*.scss",
+			"style": "./dist/css/*.css",
+			"import": "./dist/js/*.mjs",
+			"require": "./dist/js/*.cjs",
+			"types": "./dist/js/*.d.ts"
+		}
+	}
+}

@@ -8,8 +8,9 @@
 		"^@[^/](.*)\\.s?css$",
 		"^@/(.*)(?<!\\.s?css)$",
 		"^@/(.*)\\.s?css$",
-		"^[./](.*?)(?<!\\.s?css)$",
-		"^(.*)\\.s?css$"
+		"^[./](.*?)(?<!\\.s?css|\\.json)$",
+		"^(.*)\\.s?css$",
+		"^(.*)\\.json$"
 	],
 	"importOrderSeparation": true,
 	"importOrderSortSpecifiers": true,

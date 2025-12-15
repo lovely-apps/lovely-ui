@@ -1,0 +1,46 @@
+{
+	"typography": {
+		"$extensions": { "tags": ["folder"] },
+		"base": {
+			"$extensions": { "tags": ["token"] },
+			"family": {
+				"$extensions": { "tags": ["item"] },
+				"$type": "fontFamily",
+				"serif": {
+					"$extensions": { "tags": ["variant"] },
+					"$value": ["Laila", "Constantia", "serif"]
+				},
+				"sans-serif": {
+					"$extensions": { "tags": ["variant"] },
+					"$value": [
+						"Nunito Variable",
+						"Nunito",
+						"Helvetica",
+						"Arial",
+						"sans-serif"
+					]
+				},
+				"handwriting": {
+					"$extensions": { "tags": ["variant"] },
+					"$value": [
+						"Caveat Variable",
+						"Caveat",
+						"Noteworthy",
+						"Gabriola",
+						"cursive"
+					]
+				},
+				"monospace": {
+					"$extensions": { "tags": ["variant"] },
+					"$value": [
+						"Inconsolata Variable",
+						"Inconsolata",
+						"Lucida Console",
+						"Consolas",
+						"monospace"
+					]
+				}
+			}
+		}
+	}
+}

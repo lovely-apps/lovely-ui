@@ -1,0 +1,54 @@
+import { Meta, Unstyled } from "@storybook/addon-docs/blocks";
+
+import colors from "../../dist/js/color";
+import sizing from "../../dist/js/size";
+import typography from "../../dist/js/typography";
+
+export const sansSerif =
+	typography.typography.base.family["sans-serif"].join(", ");
+export const monospace = typography.typography.base.family.monospace.join(", ");
+
+<Meta title="Design Tokens/Size" />
+
+# Size
+
+## Semantic
+
+## Base
+
+### Radius
+
+<Unstyled>
+	<div
+		style={{
+			justifyContent: "space-between",
+			display: "flex",
+			flexWrap: "wrap",
+			gap: sizing.size.base.spacing[4],
+		}}
+	>
+		{Object.entries(sizing.size.base.radius)
+			.sort(([_a1, v1], [_a2, v2]) => parseInt(v1) - parseInt(v2))
+			.map(([amount, value]) => (
+				<p
+					style={{
+						alignItems: "center",
+						aspectRatio: "1/1",
+						backgroundColor: colors.color.semantic.background.surface.page.dark,
+						borderRadius: value,
+						color: colors.color.semantic.typography.content.baseline.dark,
+						display: "flex",
+						flexDirection: "column",
+						fontFamily: sansSerif,
+						gap: 8,
+						justifyContent: "center",
+						padding: 16,
+						width: "fit-content",
+					}}
+				>
+					{value}
+					<code>--lovely-ui-size-radius-{amount}</code>
+				</p>
+			))}
+	</div>
+</Unstyled>

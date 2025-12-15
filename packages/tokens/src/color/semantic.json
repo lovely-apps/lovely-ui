@@ -1,0 +1,1395 @@
+{
+	"color": {
+		"$extensions": { "tags": ["folder"] },
+		"$type": "color",
+		"semantic": {
+			"$extensions": { "tags": ["token"] },
+			"background": {
+				"$extensions": { "tags": ["type"] },
+				"surface": {
+					"$extensions": { "tags": ["kind"] },
+					"page": {
+						"$extensions": { "tags": ["item"] },
+						"light": {
+							"$extensions": { "tags": ["theme"] },
+							"$value": "{color.base.gray.50}"
+						},
+						"dark": {
+							"$extensions": { "tags": ["theme"] },
+							"$value": "{color.base.gray.900}"
+						}
+					},
+					"layer 1": {
+						"$extensions": { "tags": ["item"] },
+						"light": {
+							"$extensions": { "tags": ["theme"] },
+							"$value": "{color.base.gray.100}"
+						},
+						"dark": {
+							"$extensions": { "tags": ["theme"] },
+							"$value": "{color.base.black}"
+						}
+					},
+					"layer 2": {
+						"$extensions": { "tags": ["item"] },
+						"light": {
+							"$extensions": { "tags": ["theme"] },
+							"$value": "{color.base.white}"
+						},
+						"dark": {
+							"$extensions": { "tags": ["theme"] },
+							"$value": "{color.base.gray.700}"
+						}
+					}
+				},
+				"meaning": {
+					"$extensions": { "tags": ["kind"] },
+					"action": {
+						"$extensions": { "tags": ["meaning"] },
+						"baseline": {
+							"$extensions": { "tags": ["state"] },
+							"subtle": {
+								"$extensions": { "tags": ["variant"] },
+								"light": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.soul.50}"
+								},
+								"dark": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.soul.900}"
+								}
+							},
+							"bold": {
+								"$extensions": { "tags": ["variant"] },
+								"light": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.soul.700}"
+								},
+								"dark": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.soul.400}"
+								}
+							}
+						},
+						"hover": {
+							"$extensions": { "tags": ["state"] },
+							"subtle": {
+								"$extensions": { "tags": ["variant"] },
+								"light": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.soul.200}"
+								},
+								"dark": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.soul.800}"
+								}
+							},
+							"bold": {
+								"$extensions": { "tags": ["variant"] },
+								"light": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.soul.800}"
+								},
+								"dark": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.soul.300}"
+								}
+							}
+						},
+						"focus": {
+							"$extensions": { "tags": ["state"] },
+							"subtle": {
+								"$extensions": { "tags": ["variant"] },
+								"light": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.soul.200}"
+								},
+								"dark": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.soul.800}"
+								}
+							},
+							"bold": {
+								"$extensions": { "tags": ["variant"] },
+								"light": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.soul.800}"
+								},
+								"dark": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.soul.300}"
+								}
+							}
+						},
+						"press": {
+							"$extensions": { "tags": ["state"] },
+							"subtle": {
+								"$extensions": { "tags": ["variant"] },
+								"light": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.soul.300}"
+								},
+								"dark": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.soul.700}"
+								}
+							},
+							"bold": {
+								"$extensions": { "tags": ["variant"] },
+								"light": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.soul.900}"
+								},
+								"dark": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.soul.200}"
+								}
+							}
+						}
+					},
+
+					"success": {
+						"$extensions": { "tags": ["meaning"] },
+						"baseline": {
+							"$extensions": { "tags": ["state"] },
+							"subtle": {
+								"$extensions": { "tags": ["variant"] },
+								"light": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.grass.100}"
+								},
+								"dark": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.grass.900}"
+								}
+							},
+							"bold": {
+								"$extensions": { "tags": ["variant"] },
+								"light": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.grass.800}"
+								},
+								"dark": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.grass.300}"
+								}
+							}
+						},
+						"hover": {
+							"$extensions": { "tags": ["state"] },
+							"subtle": {
+								"$extensions": { "tags": ["variant"] },
+								"light": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.grass.200}"
+								},
+								"dark": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.grass.800}"
+								}
+							},
+							"bold": {
+								"$extensions": { "tags": ["variant"] },
+								"light": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.grass.900}"
+								},
+								"dark": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.grass.300}"
+								}
+							}
+						},
+						"focus": {
+							"$extensions": { "tags": ["state"] },
+							"subtle": {
+								"$extensions": { "tags": ["variant"] },
+								"light": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.grass.200}"
+								},
+								"dark": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.grass.800}"
+								}
+							},
+							"bold": {
+								"$extensions": { "tags": ["variant"] },
+								"light": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.grass.900}"
+								},
+								"dark": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.grass.300}"
+								}
+							}
+						},
+						"press": {
+							"$extensions": { "tags": ["state"] },
+							"subtle": {
+								"$extensions": { "tags": ["variant"] },
+								"light": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.grass.300}"
+								},
+								"dark": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.grass.700}"
+								}
+							},
+							"bold": {
+								"$extensions": { "tags": ["variant"] },
+								"light": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.grass.950}"
+								},
+								"dark": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.grass.200}"
+								}
+							}
+						}
+					},
+
+					"danger": {
+						"$extensions": { "tags": ["meaning"] },
+						"baseline": {
+							"$extensions": { "tags": ["state"] },
+							"subtle": {
+								"$extensions": { "tags": ["variant"] },
+								"light": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.heart.100}"
+								},
+								"dark": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.heart.900}"
+								}
+							},
+							"bold": {
+								"$extensions": { "tags": ["variant"] },
+								"light": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.heart.800}"
+								},
+								"dark": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.heart.300}"
+								}
+							}
+						},
+						"hover": {
+							"$extensions": { "tags": ["state"] },
+							"subtle": {
+								"$extensions": { "tags": ["variant"] },
+								"light": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.heart.200}"
+								},
+								"dark": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.heart.800}"
+								}
+							},
+							"bold": {
+								"$extensions": { "tags": ["variant"] },
+								"light": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.heart.800}"
+								},
+								"dark": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.heart.300}"
+								}
+							}
+						},
+						"focus": {
+							"$extensions": { "tags": ["state"] },
+							"subtle": {
+								"$extensions": { "tags": ["variant"] },
+								"light": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.heart.200}"
+								},
+								"dark": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.heart.800}"
+								}
+							},
+							"bold": {
+								"$extensions": { "tags": ["variant"] },
+								"light": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.heart.800}"
+								},
+								"dark": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.heart.300}"
+								}
+							}
+						},
+						"press": {
+							"$extensions": { "tags": ["state"] },
+							"subtle": {
+								"$extensions": { "tags": ["variant"] },
+								"light": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.heart.300}"
+								},
+								"dark": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.heart.700}"
+								}
+							},
+							"bold": {
+								"$extensions": { "tags": ["variant"] },
+								"light": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.heart.900}"
+								},
+								"dark": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.heart.200}"
+								}
+							}
+						}
+					},
+
+					"warning": {
+						"$extensions": { "tags": ["meaning"] },
+						"baseline": {
+							"$extensions": { "tags": ["state"] },
+							"subtle": {
+								"$extensions": { "tags": ["variant"] },
+								"light": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.lemon.100}"
+								},
+								"dark": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.lemon.900}"
+								}
+							},
+							"bold": {
+								"$extensions": { "tags": ["variant"] },
+								"light": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.lemon.800}"
+								},
+								"dark": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.lemon.300}"
+								}
+							}
+						},
+						"hover": {
+							"$extensions": { "tags": ["state"] },
+							"subtle": {
+								"$extensions": { "tags": ["variant"] },
+								"light": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.lemon.200}"
+								},
+								"dark": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.lemon.800}"
+								}
+							},
+							"bold": {
+								"$extensions": { "tags": ["variant"] },
+								"light": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.lemon.800}"
+								},
+								"dark": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.lemon.300}"
+								}
+							}
+						},
+						"focus": {
+							"$extensions": { "tags": ["state"] },
+							"subtle": {
+								"$extensions": { "tags": ["variant"] },
+								"light": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.lemon.200}"
+								},
+								"dark": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.lemon.800}"
+								}
+							},
+							"bold": {
+								"$extensions": { "tags": ["variant"] },
+								"light": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.lemon.800}"
+								},
+								"dark": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.lemon.300}"
+								}
+							}
+						},
+						"press": {
+							"$extensions": { "tags": ["state"] },
+							"subtle": {
+								"$extensions": { "tags": ["variant"] },
+								"light": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.lemon.300}"
+								},
+								"dark": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.lemon.700}"
+								}
+							},
+							"bold": {
+								"$extensions": { "tags": ["variant"] },
+								"light": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.lemon.900}"
+								},
+								"dark": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.lemon.200}"
+								}
+							}
+						}
+					},
+
+					"info": {
+						"$extensions": { "tags": ["meaning"] },
+						"baseline": {
+							"$extensions": { "tags": ["state"] },
+							"subtle": {
+								"$extensions": { "tags": ["variant"] },
+								"light": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.royal.100}"
+								},
+								"dark": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.royal.900}"
+								}
+							},
+							"bold": {
+								"$extensions": { "tags": ["variant"] },
+								"light": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.royal.800}"
+								},
+								"dark": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.royal.300}"
+								}
+							}
+						},
+						"hover": {
+							"$extensions": { "tags": ["state"] },
+							"subtle": {
+								"$extensions": { "tags": ["variant"] },
+								"light": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.royal.200}"
+								},
+								"dark": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.royal.800}"
+								}
+							},
+							"bold": {
+								"$extensions": { "tags": ["variant"] },
+								"light": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.royal.800}"
+								},
+								"dark": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.royal.300}"
+								}
+							}
+						},
+						"focus": {
+							"$extensions": { "tags": ["state"] },
+							"subtle": {
+								"$extensions": { "tags": ["variant"] },
+								"light": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.royal.200}"
+								},
+								"dark": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.royal.800}"
+								}
+							},
+							"bold": {
+								"$extensions": { "tags": ["variant"] },
+								"light": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.royal.800}"
+								},
+								"dark": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.royal.300}"
+								}
+							}
+						},
+						"press": {
+							"$extensions": { "tags": ["state"] },
+							"subtle": {
+								"$extensions": { "tags": ["variant"] },
+								"light": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.royal.300}"
+								},
+								"dark": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.royal.700}"
+								}
+							},
+							"bold": {
+								"$extensions": { "tags": ["variant"] },
+								"light": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.royal.900}"
+								},
+								"dark": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.royal.200}"
+								}
+							}
+						}
+					},
+
+					"neutral": {
+						"$extensions": { "tags": ["meaning"] },
+						"baseline": {
+							"$extensions": { "tags": ["state"] },
+							"subtle": {
+								"$extensions": { "tags": ["variant"] },
+								"light": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.blue gray.100}"
+								},
+								"dark": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.blue gray.900}"
+								}
+							},
+							"bold": {
+								"$extensions": { "tags": ["variant"] },
+								"light": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.blue gray.800}"
+								},
+								"dark": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.blue gray.300}"
+								}
+							}
+						},
+						"hover": {
+							"$extensions": { "tags": ["state"] },
+							"subtle": {
+								"$extensions": { "tags": ["variant"] },
+								"light": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.blue gray.200}"
+								},
+								"dark": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.blue gray.800}"
+								}
+							},
+							"bold": {
+								"$extensions": { "tags": ["variant"] },
+								"light": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.blue gray.800}"
+								},
+								"dark": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.blue gray.300}"
+								}
+							}
+						},
+						"focus": {
+							"$extensions": { "tags": ["state"] },
+							"subtle": {
+								"$extensions": { "tags": ["variant"] },
+								"light": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.blue gray.200}"
+								},
+								"dark": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.blue gray.800}"
+								}
+							},
+							"bold": {
+								"$extensions": { "tags": ["variant"] },
+								"light": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.blue gray.800}"
+								},
+								"dark": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.blue gray.300}"
+								}
+							}
+						},
+						"press": {
+							"$extensions": { "tags": ["state"] },
+							"subtle": {
+								"$extensions": { "tags": ["variant"] },
+								"light": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.blue gray.300}"
+								},
+								"dark": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.blue gray.700}"
+								}
+							},
+							"bold": {
+								"$extensions": { "tags": ["variant"] },
+								"light": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.blue gray.900}"
+								},
+								"dark": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.blue gray.200}"
+								}
+							}
+						}
+					}
+				}
+			},
+			"typography": {
+				"$extensions": { "tags": ["type"] },
+				"meaning": {
+					"$extensions": { "tags": ["kind"] },
+					"action": {
+						"$extensions": { "tags": ["meaning"] },
+						"bare": {
+							"$extensions": { "tags": ["style"] },
+							"subtle": {
+								"$extensions": { "tags": ["variant"] },
+								"light": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.soul.900}"
+								},
+								"dark": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.soul.100}"
+								}
+							},
+							"bold": {
+								"$extensions": { "tags": ["variant"] },
+								"light": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.soul.600}"
+								},
+								"dark": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.soul.400}"
+								}
+							}
+						},
+						"contrast": {
+							"$extensions": { "tags": ["style"] },
+							"subtle": {
+								"$extensions": { "tags": ["variant"] },
+								"light": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.soul.900}"
+								},
+								"dark": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.soul.100}"
+								}
+							},
+							"bold": {
+								"$extensions": { "tags": ["variant"] },
+								"light": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.soul.50}"
+								},
+								"dark": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.soul.900}"
+								}
+							}
+						}
+					},
+					"success": {
+						"$extensions": { "tags": ["meaning"] },
+						"bare": {
+							"$extensions": { "tags": ["style"] },
+							"subtle": {
+								"$extensions": { "tags": ["variant"] },
+								"light": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.grass.950}"
+								},
+								"dark": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.grass.100}"
+								}
+							},
+							"bold": {
+								"$extensions": { "tags": ["variant"] },
+								"light": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.grass.800}"
+								},
+								"dark": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.grass.300}"
+								}
+							}
+						},
+						"contrast": {
+							"$extensions": { "tags": ["style"] },
+							"subtle": {
+								"$extensions": { "tags": ["variant"] },
+								"light": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.grass.900}"
+								},
+								"dark": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.grass.100}"
+								}
+							},
+							"bold": {
+								"$extensions": { "tags": ["variant"] },
+								"light": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.grass.50}"
+								},
+								"dark": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.grass.900}"
+								}
+							}
+						}
+					},
+					"danger": {
+						"$extensions": { "tags": ["meaning"] },
+						"bare": {
+							"$extensions": { "tags": ["style"] },
+							"subtle": {
+								"$extensions": { "tags": ["variant"] },
+								"light": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.orangesicle.900}"
+								},
+								"dark": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.orangesicle.100}"
+								}
+							},
+							"bold": {
+								"$extensions": { "tags": ["variant"] },
+								"light": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.orangesicle.800}"
+								},
+								"dark": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.orangesicle.400}"
+								}
+							}
+						},
+						"contrast": {
+							"$extensions": { "tags": ["style"] },
+							"subtle": {
+								"$extensions": { "tags": ["variant"] },
+								"light": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.orangesicle.900}"
+								},
+								"dark": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.orangesicle.100}"
+								}
+							},
+							"bold": {
+								"$extensions": { "tags": ["variant"] },
+								"light": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.orangesicle.50}"
+								},
+								"dark": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.orangesicle.900}"
+								}
+							}
+						}
+					},
+					"warning": {
+						"$extensions": { "tags": ["meaning"] },
+						"bare": {
+							"$extensions": { "tags": ["style"] },
+							"subtle": {
+								"$extensions": { "tags": ["variant"] },
+								"light": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.lemon.900}"
+								},
+								"dark": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.lemon.100}"
+								}
+							},
+							"bold": {
+								"$extensions": { "tags": ["variant"] },
+								"light": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.lemon.800}"
+								},
+								"dark": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.lemon.400}"
+								}
+							}
+						},
+						"contrast": {
+							"$extensions": { "tags": ["style"] },
+							"subtle": {
+								"$extensions": { "tags": ["variant"] },
+								"light": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.lemon.900}"
+								},
+								"dark": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.lemon.100}"
+								}
+							},
+							"bold": {
+								"$extensions": { "tags": ["variant"] },
+								"light": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.lemon.50}"
+								},
+								"dark": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.lemon.900}"
+								}
+							}
+						}
+					},
+					"info": {
+						"$extensions": { "tags": ["meaning"] },
+						"bare": {
+							"$extensions": { "tags": ["style"] },
+							"subtle": {
+								"$extensions": { "tags": ["variant"] },
+								"light": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.royal.900}"
+								},
+								"dark": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.royal.100}"
+								}
+							},
+							"bold": {
+								"$extensions": { "tags": ["variant"] },
+								"light": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.royal.600}"
+								},
+								"dark": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.royal.400}"
+								}
+							}
+						},
+						"contrast": {
+							"$extensions": { "tags": ["style"] },
+							"subtle": {
+								"$extensions": { "tags": ["variant"] },
+								"light": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.royal.900}"
+								},
+								"dark": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.royal.100}"
+								}
+							},
+							"bold": {
+								"$extensions": { "tags": ["variant"] },
+								"light": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.royal.50}"
+								},
+								"dark": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.royal.900}"
+								}
+							}
+						}
+					},
+					"neutral": {
+						"$extensions": { "tags": ["meaning"] },
+						"bare": {
+							"$extensions": { "tags": ["style"] },
+							"subtle": {
+								"$extensions": { "tags": ["variant"] },
+								"light": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.blue gray.900}"
+								},
+								"dark": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.blue gray.100}"
+								}
+							},
+							"bold": {
+								"$extensions": { "tags": ["variant"] },
+								"light": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.blue gray.700}"
+								},
+								"dark": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.blue gray.300}"
+								}
+							}
+						},
+						"contrast": {
+							"$extensions": { "tags": ["style"] },
+							"subtle": {
+								"$extensions": { "tags": ["variant"] },
+								"light": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.blue gray.900}"
+								},
+								"dark": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.blue gray.100}"
+								}
+							},
+							"bold": {
+								"$extensions": { "tags": ["variant"] },
+								"light": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.blue gray.50}"
+								},
+								"dark": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.blue gray.900}"
+								}
+							}
+						}
+					}
+				},
+				"heading": {
+					"$extensions": { "tags": ["item"] },
+					"title": {
+						"$extensions": { "tags": ["style"] },
+						"light": {
+							"$extensions": { "tags": ["theme"] },
+							"$value": "{color.base.rosey.700}"
+						},
+						"dark": {
+							"$extensions": { "tags": ["theme"] },
+							"$value": "{color.base.rosey.400}"
+						}
+					},
+					"subtitle": {
+						"$extensions": { "tags": ["style"] },
+						"light": {
+							"$extensions": { "tags": ["theme"] },
+							"$value": "{color.base.rosey.800}"
+						},
+						"dark": {
+							"$extensions": { "tags": ["theme"] },
+							"$value": "{color.base.rosey.200}"
+						}
+					},
+					"level 1": {
+						"$extensions": { "tags": ["style"] },
+						"light": {
+							"$extensions": { "tags": ["theme"] },
+							"$value": "{color.base.rosey.950}"
+						},
+						"dark": {
+							"$extensions": { "tags": ["theme"] },
+							"$value": "{color.base.rosey.50}"
+						}
+					},
+					"level 2": {
+						"$extensions": { "tags": ["style"] },
+						"light": {
+							"$extensions": { "tags": ["theme"] },
+							"$value": "{color.base.rosey.800}"
+						},
+						"dark": {
+							"$extensions": { "tags": ["theme"] },
+							"$value": "{color.base.rosey.200}"
+						}
+					},
+					"level 3": {
+						"$extensions": { "tags": ["style"] },
+						"light": {
+							"$extensions": { "tags": ["theme"] },
+							"$value": "{color.base.rosey.900}"
+						},
+						"dark": {
+							"$extensions": { "tags": ["theme"] },
+							"$value": "{color.base.rosey.100}"
+						}
+					},
+					"level 4": {
+						"$extensions": { "tags": ["style"] },
+						"light": {
+							"$extensions": { "tags": ["theme"] },
+							"$value": "{color.base.rosey.950}"
+						},
+						"dark": {
+							"$extensions": { "tags": ["theme"] },
+							"$value": "{color.base.rosey.50}"
+						}
+					},
+					"level 5": {
+						"$extensions": { "tags": ["style"] },
+						"light": {
+							"$extensions": { "tags": ["theme"] },
+							"$value": "{color.base.rosey.800}"
+						},
+						"dark": {
+							"$extensions": { "tags": ["theme"] },
+							"$value": "{color.base.rosey.200}"
+						}
+					},
+					"level 6": {
+						"$extensions": { "tags": ["style"] },
+						"light": {
+							"$extensions": { "tags": ["theme"] },
+							"$value": "{color.base.rosey.700}"
+						},
+						"dark": {
+							"$extensions": { "tags": ["theme"] },
+							"$value": "{color.base.rosey.400}"
+						}
+					}
+				},
+				"content": {
+					"$extensions": { "tags": ["item"] },
+					"baseline": {
+						"$extensions": { "tags": ["style"] },
+						"light": {
+							"$extensions": { "tags": ["theme"] },
+							"$value": "{color.base.black}"
+						},
+						"dark": {
+							"$extensions": { "tags": ["theme"] },
+							"$value": "{color.base.white}"
+						}
+					},
+					"subtle": {
+						"$extensions": { "tags": ["style"] },
+						"light": {
+							"$extensions": { "tags": ["theme"] },
+							"$value": "{color.base.blue gray.900}"
+						},
+						"dark": {
+							"$extensions": { "tags": ["theme"] },
+							"$value": "{color.base.blue gray.100}"
+						}
+					},
+
+					"callout": {
+						"$extensions": { "tags": ["style"] },
+						"light": {
+							"$extensions": { "tags": ["theme"] },
+							"$value": "{color.base.blue gray.700}"
+						},
+						"dark": {
+							"$extensions": { "tags": ["theme"] },
+							"$value": "{color.base.blue gray.100}"
+						}
+					},
+
+					"link": {
+						"$extensions": { "tags": ["style"] },
+
+						"baseline": {
+							"$extensions": { "tags": ["state"] },
+							"bold background": {
+								"$extensions": { "tags": ["variant"] },
+								"light": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.soul.50}"
+								},
+								"dark": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.soul.900}"
+								}
+							},
+							"subtle background": {
+								"$extensions": { "tags": ["variant"] },
+								"light": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.soul.700}"
+								},
+								"dark": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.soul.400}"
+								}
+							},
+							"no background": {
+								"$extensions": { "tags": ["variant"] },
+								"light": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.soul.700}"
+								},
+								"dark": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.soul.400}"
+								}
+							}
+						},
+						"hover": {
+							"$extensions": { "tags": ["state"] },
+							"bold background": {
+								"$extensions": { "tags": ["variant"] },
+								"light": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.soul.200}"
+								},
+								"dark": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.soul.800}"
+								}
+							},
+							"subtle background": {
+								"$extensions": { "tags": ["variant"] },
+								"light": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.soul.800}"
+								},
+								"dark": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.soul.300}"
+								}
+							},
+							"no background": {
+								"$extensions": { "tags": ["variant"] },
+								"light": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.soul.800}"
+								},
+								"dark": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.soul.300}"
+								}
+							}
+						},
+						"focus": {
+							"$extensions": { "tags": ["state"] },
+							"bold background": {
+								"$extensions": { "tags": ["variant"] },
+								"light": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.soul.200}"
+								},
+								"dark": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.soul.800}"
+								}
+							},
+							"subtle background": {
+								"$extensions": { "tags": ["variant"] },
+								"light": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.soul.800}"
+								},
+								"dark": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.soul.300}"
+								}
+							},
+							"no background": {
+								"$extensions": { "tags": ["variant"] },
+								"light": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.soul.800}"
+								},
+								"dark": {
+									"$extensions": { "tags": ["theme"] },
+									"$value": "{color.base.soul.300}"
+								}
+							}
+						}
+					}
+				}
+			},
+			"accessibility": {
+				"$extensions": { "tags": ["type"] },
+				"focus": {
+					"$extensions": { "tags": ["kind"] },
+					"action": {
+						"$extensions": { "tags": ["meaning"] },
+						"subtle background": {
+							"$extensions": { "tags": ["variant"] },
+							"light": {
+								"$extensions": { "tags": ["theme"] },
+								"$value": "{color.base.soul.600}"
+							},
+							"dark": {
+								"$extensions": { "tags": ["theme"] },
+								"$value": "{color.base.soul.400}"
+							}
+						},
+						"bold background": {
+							"$extensions": { "tags": ["variant"] },
+							"light": {
+								"$extensions": { "tags": ["theme"] },
+								"$value": "{color.base.soul.300}"
+							},
+							"dark": {
+								"$extensions": { "tags": ["theme"] },
+								"$value": "{color.base.soul.700}"
+							}
+						}
+					},
+					"success": {
+						"$extensions": { "tags": ["meaning"] },
+						"subtle background": {
+							"$extensions": { "tags": ["variant"] },
+							"light": {
+								"$extensions": { "tags": ["theme"] },
+								"$value": "{color.base.grass.600}"
+							},
+							"dark": {
+								"$extensions": { "tags": ["theme"] },
+								"$value": "{color.base.grass.400}"
+							}
+						},
+						"bold background": {
+							"$extensions": { "tags": ["variant"] },
+							"light": {
+								"$extensions": { "tags": ["theme"] },
+								"$value": "{color.base.grass.300}"
+							},
+							"dark": {
+								"$extensions": { "tags": ["theme"] },
+								"$value": "{color.base.grass.700}"
+							}
+						}
+					},
+					"danger": {
+						"$extensions": { "tags": ["meaning"] },
+						"subtle background": {
+							"$extensions": { "tags": ["variant"] },
+							"light": {
+								"$extensions": { "tags": ["theme"] },
+								"$value": "{color.base.orangesicle.600}"
+							},
+							"dark": {
+								"$extensions": { "tags": ["theme"] },
+								"$value": "{color.base.orangesicle.400}"
+							}
+						},
+						"bold background": {
+							"$extensions": { "tags": ["variant"] },
+							"light": {
+								"$extensions": { "tags": ["theme"] },
+								"$value": "{color.base.orangesicle.300}"
+							},
+							"dark": {
+								"$extensions": { "tags": ["theme"] },
+								"$value": "{color.base.orangesicle.700}"
+							}
+						}
+					},
+					"warning": {
+						"$extensions": { "tags": ["meaning"] },
+						"subtle background": {
+							"$extensions": { "tags": ["variant"] },
+							"light": {
+								"$extensions": { "tags": ["theme"] },
+								"$value": "{color.base.lemon.600}"
+							},
+							"dark": {
+								"$extensions": { "tags": ["theme"] },
+								"$value": "{color.base.lemon.400}"
+							}
+						},
+						"bold background": {
+							"$extensions": { "tags": ["variant"] },
+							"light": {
+								"$extensions": { "tags": ["theme"] },
+								"$value": "{color.base.lemon.300}"
+							},
+							"dark": {
+								"$extensions": { "tags": ["theme"] },
+								"$value": "{color.base.lemon.700}"
+							}
+						}
+					},
+					"info": {
+						"$extensions": { "tags": ["meaning"] },
+						"subtle background": {
+							"$extensions": { "tags": ["variant"] },
+							"light": {
+								"$extensions": { "tags": ["theme"] },
+								"$value": "{color.base.royal.600}"
+							},
+							"dark": {
+								"$extensions": { "tags": ["theme"] },
+								"$value": "{color.base.royal.400}"
+							}
+						},
+						"bold background": {
+							"$extensions": { "tags": ["variant"] },
+							"light": {
+								"$extensions": { "tags": ["theme"] },
+								"$value": "{color.base.royal.300}"
+							},
+							"dark": {
+								"$extensions": { "tags": ["theme"] },
+								"$value": "{color.base.royal.700}"
+							}
+						}
+					},
+					"neutral": {
+						"$extensions": { "tags": ["meaning"] },
+						"subtle background": {
+							"$extensions": { "tags": ["variant"] },
+							"light": {
+								"$extensions": { "tags": ["theme"] },
+								"$value": "{color.base.blue gray.600}"
+							},
+							"dark": {
+								"$extensions": { "tags": ["theme"] },
+								"$value": "{color.base.blue gray.400}"
+							}
+						},
+						"bold background": {
+							"$extensions": { "tags": ["variant"] },
+							"light": {
+								"$extensions": { "tags": ["theme"] },
+								"$value": "{color.base.blue gray.300}"
+							},
+							"dark": {
+								"$extensions": { "tags": ["theme"] },
+								"$value": "{color.base.blue gray.700}"
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

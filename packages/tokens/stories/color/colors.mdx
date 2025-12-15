@@ -1,0 +1,31 @@
+import {
+	ColorItem,
+	ColorPalette,
+	Markdown,
+	Meta,
+} from "@storybook/addon-docs/blocks";
+
+import colors from "../../dist/js/color";
+import {
+	flattenColorPallete,
+	getBaseColors,
+	getColorTreeDepth,
+	semanticColorPaletteDisplay,
+} from "./utils";
+
+<Meta title="Design Tokens/Colors" />
+
+# Colors
+
+## Semantic
+
+{semanticColorPaletteDisplay(colors.color.semantic)}
+
+## Base
+
+<ColorPalette>
+	{getBaseColors().map((props) => (
+		<ColorItem {...props} />
+	))}
+</ColorPalette>
+import {semantic} from "../typography/typography.mdx"

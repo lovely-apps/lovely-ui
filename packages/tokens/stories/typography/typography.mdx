@@ -1,0 +1,119 @@
+import {
+	Markdown,
+	Meta,
+	Typeset,
+	Unstyled,
+} from "@storybook/addon-docs/blocks";
+
+import colors from "../../dist/js/color";
+import typography from "../../dist/js/typography";
+
+<Meta title="Design Tokens/Typography" />
+
+export const { base, semantic } = typography.typography;
+export const serif = base.family.serif.join(", ");
+export const sansSerif = base.family["sans-serif"].join(", ");
+export const handwriting = base.family.handwriting.join(", ");
+export const monospace = base.family.monospace.join(", ");
+
+export const SampleText = "Lovely";
+
+# Typography
+
+## Semantic
+
+{Object.entries(semantic).map(([category, catContents]) => (
+
+<>
+
+<Markdown>{`### ${category[0].toUpperCase() + category.substring(1)}`}</Markdown>
+<Unstyled>
+	<table style={{width: "100%", borderCollapse: 'collapse'}}>
+{Object.entries(catContents).map(([group, groupContents]) => (
+	<tr>
+		<td style={{width:"7rem"}}>
+			{`${group[0].toUpperCase() + group.substring(1)}`}
+		</td>
+		<td>
+			<p style={{
+				...(groupContents.normal || groupContents),
+				fontWeight: fontWeightNameToValue(groupContents.normal?.fontWeight || groupContents.fontWeight),
+				color: (colors.color.semantic.typography[category][group] || colors.color.semantic.typography[category].baseline).light,
+				padding: '0.5rem 2rem',
+				margin: 0,
+				backgroundColor: colors.color.semantic.background.surface.page.light,
+				textTransform: category === 'heading' && group === 'level 5' ? 'uppercase' : category === 'heading' && group === 'level 6' ? 'lowercase' : undefined
+			}}>{SampleText}</p>
+		</td>
+		<td>
+			<p style={{
+				...(groupContents.normal || groupContents),
+				fontWeight: fontWeightNameToValue(groupContents.normal?.fontWeight || groupContents.fontWeight),
+				color: (colors.color.semantic.typography[category][group] || colors.color.semantic.typography[category].baseline).dark,
+				padding: '0.5rem 2rem',
+				margin: 0,
+				backgroundColor: colors.color.semantic.background.surface.page.dark,
+				textTransform: category === 'heading' && group === 'level 5' ? 'uppercase' : category === 'heading' && group === 'level 6' ? 'lowercase' : undefined
+			}}>{SampleText}</p>
+		</td>
+	</tr>
+))}
+			</table>
+		</Unstyled>
+</>
+))}
+
+## Base
+
+### Serif
+
+Primarily used for body text
+
+**Font:** <>{serif}</>
+
+<Typeset
+	fontSizes={[10, 12, 16, 18, 24]}
+	fontWeight={400}
+	sampleText={SampleText}
+	fontFamily={serif}
+/>
+
+### Sans-Serif
+
+Primarily used for headings
+
+**Font:** <>{sansSerif}</>
+
+<Typeset
+	fontSizes={[10, 12, 16, 18, 24]}
+	fontWeight={400}
+	sampleText={SampleText}
+	fontFamily={sansSerif}
+/>
+
+### Handwriting
+
+Used when a bit of a more human or personal touch is necessary
+
+**Font:** <>{handwriting}</>
+
+<Typeset
+	fontSizes={[10, 12, 16, 18, 24]}
+	fontWeight={400}
+	sampleText={SampleText}
+	fontFamily={handwriting}
+/>
+
+### Monospace
+
+Used for code or other monospaced content
+
+**Font:** <>{monospace}</>
+
+<Typeset
+	fontSizes={[10, 12, 16, 18, 24]}
+	fontWeight={400}
+	sampleText={SampleText}
+	fontFamily={monospace}
+/>
+import {fontWeightNameToValue} from "./utils"
